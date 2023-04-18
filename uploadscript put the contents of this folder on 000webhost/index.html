@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Sml-Archive-Upload</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="w3.js"></script>
+<head>
+	
+	
+</head>
+<body>
+	<h1 class="text">Upload an MP4 Episode File To our archive servers please do not reupload already available episodes *disclamer thumbnail MUST be included*</h1>
+	<h6 class="text">episode needs to be in the mp4 format</h6>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="fileToUpload" accept=".mp4">
+    <input type="submit" value="Upload File" name="submit">
+</form>
+
+	<script>
+		function uploadFile() {
+			var fileInput = document.getElementById("file");
+			var file = fileInput.files[0];
+			var formData = new FormData();
+			formData.append("file", file);
+
+			var xhr = new XMLHttpRequest();
+			xhr.open("POST", "upload.php");
+			xhr.send(formData);
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,276 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+* {
+  margin:0;
+  padding:0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: darkgray;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+
+body {
+  text-decoration-color: ghostwhite;
+  box-sizing: border-box;
+  min-height: 300vh;
+  margin: 0;
+  border-bottom: solid 100px #2a2a2a;
+  padding-top: 1px;
+  font-family: 'Cabin', sans-serif;
+  background-color: black;
+  color: black;
+
+}
+
+.bottom{
+  text-align: center;
+  text-decoration-color: ghostwhite;
+  box-sizing: border-box;
+  min-height: 300vh;
+  margin: 0;
+  border-bottom: solid 100px #2a2a2a;
+  padding-top: 1px;
+  font-family: 'Cabin', sans-serif;
+  background-color: black;
+  font-family: 'Cabin', sans-serif;
+  color: black;  
+}
+a {
+  color: inherit;
+}
+p {
+ text-align: right;
+  margin-bottom: 16px;
+}
+
+.text-center {
+  color: ivory;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 22px;
+  display: #C0C0C0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text-center2 {
+  color: ivory;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 22px;
+  display: #C0C0C0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text-center3 {
+  color: ivory;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 22px;
+  display: #C0C0C0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+
+
+.invert {
+  color: white;
+}
+.fade-in-text3 {
+  font-family: Arial;
+  font-size: 30px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+}
+
+
+
+.row1 {
+
+
+}
+
+.test2 {
+	margin: auto;
+	float: left;
+	padding-left: 15px;
+
+}
+
+.test3 {
+	margin: auto;
+	float: left;
+	padding-left: 15px;
+
+}
+
+.test:hover {
+
+}
+
+.searchbar {
+	margin-top: auto;
+	padding-bottom: 150px;
+}
+
+.row1 {
+  float: left;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+
+.video1{
+	background-color: white;
+	size: 400px
+}
+
+.thumbnail1{
+	background-image: services.png;
+
+}
+
+.thumbnail2{
+
+
+}
+
+.thumbnail3{
+
+
+}
+
+.wrapper{
+  float: left;
+  padding-top: 100px;
+  padding-left: 205px;
+  position: relative;
+  transform: translate(-50%, -50%);
+}
+
+a{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: red;
+  transition: all .35s;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:hover:after{
+  width: 100%;
+}
+
+.searchbar{
+    width: 200px;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    z-index: 5;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.button{
+  padding: 0.25em 0.75em;
+  min-width: 10ch;
+  min-height: 44px;
+}
+
+
+.text{
+  text-align: center;
+  color: white;
+}
+.text2{
+  color: white;
+  position: inherit;
+  text-align: center;
+  width: 300px;
+  border-radius: 15px;
+  border: 1px #000 solid;
+  padding: 5px 5px 5px 25px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 5;
+}
+
+.vidtittle{
+  color: white;
+  padding-left: 30px;
+}
+
+.test6{
+  padding-top: 30px;
+  text-align: center;
+}
+
+

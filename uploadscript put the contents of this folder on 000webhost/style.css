@@ -1,0 +1,201 @@
+
+.uploadtext{
+	padding-left: 300px;
+
+}
+
+.text{
+  text-align: center;
+  color: white;
+}
+
+.uploadbtn{
+	text-align: center;
+	font-size: 30px;
+}
+
+.uploadbtn:hover{
+	color: gray;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  overflow: hidden;
+  text-decoration-color: ghostwhite;
+  box-sizing: border-box;
+  min-height: 300vh;
+  margin: 0;
+  border-bottom: solid 100px #2a2a2a;
+  padding-top: 1px;
+  font-family: 'Cabin', sans-serif;
+  background-color: black;
+  color: black;
+
+}
+
+.bottom{
+  text-align: center;
+  text-decoration-color: ghostwhite;
+  box-sizing: border-box;
+  min-height: 300vh;
+  margin: 0;
+  border-bottom: solid 100px #2a2a2a;
+  padding-top: 1px;
+  font-family: 'Cabin', sans-serif;
+  background-color: black;
+  font-family: 'Cabin', sans-serif;
+  color: black;  
+}
+a {
+  color: inherit;
+}
+p {
+ text-align: right;
+  margin-bottom: 16px;
+}
+
+.text-center {
+  color: ivory;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 22px;
+  display: #C0C0C0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text-center2 {
+  color: ivory;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 22px;
+  display: #C0C0C0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text-center3 {
+  color: ivory;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 22px;
+  display: #C0C0C0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+
+
+.invert {
+  color: white;
+}
+.fade-in-text3 {
+  font-family: Arial;
+  font-size: 30px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+}
+
+
+
+.row1 {
+
+
+}
+
+.test2 {
+	margin: auto;
+	float: left;
+	padding-left: 15px;
+
+}
+
+.test3 {
+	margin: auto;
+	float: left;
+	padding-left: 15px;
+
+}
+
+.test:hover {
+
+}
+
+.searchbar {
+	margin-top: auto;
+	padding-bottom: 150px;
+}
+
+.row1 {
+  float: left;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+
+.video1{
+	background-color: white;
+	size: 400px
+}
+
+.thumbnail1{
+	background-image: services.png;
+
+}
+
+.thumbnail2{
+
+
+}
+
+.thumbnail3{
+
+
+}
+
+.searchbar{
+    width: 300px;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    z-index: 5;
+}
+
+.text{
+  text-align: center;
+  color: white;
+}
+
+.vidtittle{
+  color: white;
+  padding-left: 30px;
+}
+
+.test6{
+  padding-top: 30px;
+  text-align: center;
+}
+
+
